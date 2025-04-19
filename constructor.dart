@@ -48,6 +48,9 @@ void main(){
   Saqlain saqlain=Saqlain(color: "Blue",isTalented: true);
   saqlain.display();
 
+   Table table = Table();
+  table.display();
+
 
 }
 
@@ -65,3 +68,28 @@ class Saqlain{
 
 
 }
+
+class Table {
+  String? name;
+  String? color;
+
+  // Constructor
+  Table({this.name = "Table1", this.color = "White"});
+
+  // Method
+  void display() {
+    print("Name: ${this.name}");
+    print("Color: ${this.color}");
+  }
+}
+
+
+
+
+///
+///Key Points
+//The constructor’s name should be the same as the class name.
+//Constructor doesn’t have any return type.
+//Constructor is only called once at the time of the object creation.
+//Constructor is called automatically when an object is created.
+//Constructor is used to initialize the values of the properties of the class.
