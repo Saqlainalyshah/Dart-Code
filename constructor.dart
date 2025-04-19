@@ -45,5 +45,23 @@ void main(){
   print("Age: ${student.age}");
   print("Roll Number: ${student.rollNumber}");
   print("Gender: ${student.gender}");
+  Saqlain saqlain=Saqlain(color: "Blue",isTalented: true);
+  saqlain.display();
+
+
+}
+
+class Saqlain{
+  String? color;
+  bool? isTalented;
+
+  //constructor with name parameters
+  Saqlain({this.color,this.isTalented});
+
+  display(){
+    print("Color:$color");
+    print("IsTalented:$isTalented");
+  }
+
 
 }
