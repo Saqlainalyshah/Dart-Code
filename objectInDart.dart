@@ -6,8 +6,10 @@ void main(){
   /// object is instance of class.
 Person person=Person("Saqlain", 25);
 // in here person is object. now through person we can access functions and properties of class.
-person.display(); /// output:Your name is:Saqlain
-///Your age is:25
+person.display(); /// output:Your name is:Saqlain, Your age is:25
+person.name="Saqlain Ali Shah";
+person.age=30;
+person.display(); ///Your name is:Saqlain Ali Shah,Your age is:30
 }
 
 
