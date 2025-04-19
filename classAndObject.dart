@@ -36,6 +36,12 @@ void main(){
   
   //functions of simple interest called
   print("Simple Interest is ${simpleInterest.interest()}."); //output:Simple Interest is 200.0.
+
+  Home home=Home();
+  home.name="Saqlain House";
+  home.address="Gilgit Baltistan";
+  home.numberOfRooms=4;
+  home.display();//Home name is:Saqlain House, Address is:Gilgit Baltistan and Number of rooms are:4
 }
 
 class SimpleInterest{
@@ -47,5 +53,14 @@ class SimpleInterest{
   //functions of simple interest
   double interest(){
     return (principal! * rate! * time!)/100;
+  }
+}
+class Home{
+  String? name;
+  String? address;
+  int? numberOfRooms;
+
+  display(){
+    print("Home name is:$name, Address is:$address and Number of rooms are:$numberOfRooms");
   }
 }
