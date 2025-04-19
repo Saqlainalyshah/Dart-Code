@@ -12,13 +12,19 @@ class Rectangle{
 void main(){
   //object of rectangle created
   Rectangle rectangle = Rectangle();
+  Rectangle rectangle2 = Rectangle();
   
   //setting properties for rectangle
   rectangle.length=10;
   rectangle.breadth=5;
+  // you can create multiple objects with different values.
+  rectangle2.length=30;
+  rectangle2.breadth=10;
   
   //functions of rectangle called
   print("Area of rectangle is ${rectangle.area()}.");//Area of rectangle is 50.0.
+
+  print("Area of rectangle 2 is ${rectangle2.area()}. ");
 
   ///example two
    SimpleInterest simpleInterest = SimpleInterest();
