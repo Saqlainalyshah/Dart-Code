@@ -1,7 +1,5 @@
 
 
-import 'dart:ffi';
-
 void main(){
  
 List<MyCustomList> list=[
