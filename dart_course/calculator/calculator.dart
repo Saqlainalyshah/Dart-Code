@@ -1,7 +1,26 @@
 import 'dart:io';
 
 import 'functions.dart';
+import 'dart:math';
+
+
+int getNumber(){
+  return 5;
+}
 void main(){
+
+ 
+List<String> list1=["Saqlain","Ali","Shah","Okay"];
+
+list1.add("Baigal");
+list1.insert(1,"Ok");
+list1[1]="Okqy";
+print(list1);
+print(list1);
+final values=["Oka","kak"];
+print(values);
+print(getNumber());
+
  List<int> list=[1,2,3,4,5,6,2,6,7,3,0,1,2];
  List<String> names=["Saqlain","Saqlain","Ali","Shah","Ali"];
  Set<String> temp={};
